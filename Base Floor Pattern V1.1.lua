@@ -1,7 +1,7 @@
-local Colour2
-local Colour1
+local Colour2 = game.ReplicatedStorage.RemoteC2.Text
+local Colour1 = game.ReplicatedStorage.RemoteC1.Text
 local PlayerName
-
+--[[
 for ii,vv in pairs(game.ReplicatedStorage:GetChildren()) do
 if vv.ClassName == "RemoteC1" then
 Colour1 = vv.Text
@@ -13,7 +13,7 @@ if vvv.ClassName == "RemoteC2" then
 Colour2 = vvv.Text
 end
 end
- 
+ ]]
 for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
 if v.ClassName == "Part" then
 PlayerName = v.Name
