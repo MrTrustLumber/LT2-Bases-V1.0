@@ -1,5 +1,5 @@
-local Colour1 = _G.Colour1.Text
-local Colour2 = _G.Colour2.Text
+local C1 = _G.C1
+local C2 = _G.C2
 local PlayerName
  
 for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
@@ -390,7 +390,7 @@ Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -32), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -48), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -64), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -96), Plr)
-wait(2.1178571428571)SetBp(Colour1, 313)Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -88), Plr)
+wait(2.1178571428571)SetBp(C1, 313)Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -88), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -72), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(96, 0.20000000298023, 88), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(96, 0.20000000298023, 72), Plr)
@@ -702,4 +702,4 @@ Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -8), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -24), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -40), Plr)
 Sbp('Floor2Large',Tag*Ang(-0, 0, -0) + Vec(-96, 0.20000000298023, -56), Plr)
-wait(2.1142857142857)SetBp(Colour2, 312)
+wait(2.1142857142857)SetBp(C2, 312)
