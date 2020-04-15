@@ -4,13 +4,13 @@ local PlayerName
 
 for ii,vv in pairs(game.ReplicatedStorage:GetChildren()) do
 if vv.ClassName == "RemoteC1" then
-Colour1 = vv.Name
+Colour1 = vv.Text
 end
 end
 
 for iii,vvv in pairs(game.ReplicatedStorage:GetChildren()) do
 if vvv.ClassName == "RemoteC2" then
-Colour2 = vvv.Name
+Colour2 = vvv.Text
 end
 end
  
