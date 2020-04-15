@@ -1,6 +1,18 @@
-local C1 = _G.C1
-local C2 = _G.C2
+local C1
+local C2
 local PlayerName
+
+for i,c1 in pairs(game.ReplicatedStorage:GetChildren()) do
+if c1.ClassName == "Part" then
+C1 = c1.Name
+end
+end
+
+for i,c2 in pairs(game.ReplicatedStorage:GetChildren()) do
+if c2.ClassName == "Part" then
+C2 = c2.Name
+end
+end
  
 for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
 if v.ClassName == "Part" then
