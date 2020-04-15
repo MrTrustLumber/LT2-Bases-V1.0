@@ -3,13 +3,13 @@ local Colour1
 local PlayerName
 
 for ii,vv in pairs(game.ReplicatedStorage:GetChildren()) do
-if vv.ClassName == "Part" then
+if vv.ClassName == "RemoteC1" then
 Colour1 = vv.Name
 end
 end
 
 for iii,vvv in pairs(game.ReplicatedStorage:GetChildren()) do
-if vvv.ClassName == "Part" then
+if vvv.ClassName == "RemoteC2" then
 Colour2 = vvv.Name
 end
 end
