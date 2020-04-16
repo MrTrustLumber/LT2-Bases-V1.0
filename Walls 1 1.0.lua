@@ -1,5 +1,12 @@
--- Set Player Name Below:
-local PlayerName = "LocalPlayer"
+local Colour1 = game.ReplicatedStorage.RemoteC1.Text
+local PlayerName
+
+for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
+if v.ClassName == "Part" then
+PlayerName = v.Name
+end
+end
+
 
 -- Script:
 local Tag
@@ -170,4 +177,4 @@ Sbp('Floor1Large',Tag*Ang(1.5707963705063, 0, -1.5707963705063) + Vec(99.0999755
 Sbp('Floor1Large',Tag*Ang(1.5707963705063, 0, -1.5707963705063) + Vec(99.099975585938, 4.0999999046326, -88), Plr)
 Sbp('Floor1Large',Tag*Ang(1.5707963705063, 0, -1.5707963705063) + Vec(99.099975585938, 4.0999999046326, -96), Plr)
 Sbp('Floor1Large',Tag*Ang(-1.5707963705063, 0, -3.1415927410126) + Vec(-56, 4.0999999046326, 99.100006103516), Plr)
-wait(1.3571428571429)SetBp("LoneCave", 100)
+wait(1.3571428571429)SetBp(Colour1, 100)
