@@ -1,5 +1,12 @@
--- Set Player Name Below:
-local PlayerName = "LocalPlayer"
+local Colour1 = game.ReplicatedStorage.RemoteC1.Text
+local PlayerName
+
+for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
+if v.ClassName == "Part" then
+PlayerName = v.Name
+end
+end
+
 
 -- Script:
 local Tag
