@@ -1,5 +1,5 @@
-local Colour2 = game.ReplicatedStorage.RemoteC2.Text
-local Colour1 = game.ReplicatedStorage.RemoteC1.Text
+local Colour2 = game.CoreGui.MTL_Gui.MTLBaseColour2.Text
+local Colour1 = game.CoreGui.MTL_Gui.MTLBaseColour1.Text
 local PlayerName
 
 for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
