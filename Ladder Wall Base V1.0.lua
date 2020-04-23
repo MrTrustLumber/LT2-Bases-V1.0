@@ -1,5 +1,5 @@
 local Colour1 = game.CoreGui.MTL_Gui.MTLBaseColour1.Text
-local PlayerName = "MrTrustLumber"
+local PlayerName = game.CoreGui.MTL_Gui.MTLBaseUser0.Text
 
 -- Script:
 local Tag
