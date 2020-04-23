@@ -1,12 +1,6 @@
 local Colour2 = game.CoreGui.MTL_Gui.MTLBaseColour2.Text
 local Colour1 = game.CoreGui.MTL_Gui.MTLBaseColour1.Text
-local PlayerName
-
-for i,v in pairs(game.ReplicatedStorage:GetChildren()) do
-if v.ClassName == "Part" then
-PlayerName = v.Name
-end
-end
+local PlayerName = game.CoreGui.MTL_Gui.MTLBaseUser0.Text
 
 -- Script:
 local Tag
