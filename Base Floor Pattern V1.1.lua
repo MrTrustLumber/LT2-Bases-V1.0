@@ -1,6 +1,6 @@
-local Colour2 = game.CoreGui.MTL_Gui.MTLBaseColour2.Text
-local Colour1 = game.CoreGui.MTL_Gui.MTLBaseColour1.Text
-local PlayerName = game.CoreGui.MTL_Gui.MTLBaseUser0.Text
+local Colour2 = game.CoreGui.MTL_Gui.DataFolder.MTLBaseColour2.Text
+local Colour1 = game.CoreGui.MTL_Gui.DataFolder.MTLBaseColour1.Text
+local PlayerName = game.CoreGui.MTL_Gui.DataFolder.MTLBaseUser0.Text
 
 -- Script:
 local Tag
